@@ -8,7 +8,7 @@ async function dbConnect() {
         `mongodb+srv://goodweather37:${password}@auth-mern.rjdo8zo.mongodb.net/?retryWrites=true&w=majority&appName=auth-MERN`,
         {
             //useNewUrlParser: true,
-            useUnifiedTopology: true,
+            //useUnifiedTopology: true,
             //useCreateIndex: true,
         }
     ).then(() => {
